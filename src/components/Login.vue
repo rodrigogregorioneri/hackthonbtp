@@ -3,11 +3,11 @@
         <div class="card text-center" style="width: 18rem;">
             <form>
   <div class="form-group">
-    <label for="exampleInputEmail1">Matrícula <img class="imglogin" src="../assets/image/login.jpeg"></label>
+    <label for="exampleInputEmail1">Matrícula <img class="imglogin" src="../assets/image/login.png"></label>
     <input type="text" class="form-control" id="matricula" aria-describedby="matriculaHelp" placeholder="Número da matrícula">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1" >Senha <img class="imglogin" src="../assets/image/login.jpeg"> </label>
+    <label for="exampleInputPassword1" >Senha <img class="imglogin" src="../assets/image/login.png"> </label>
     <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
   </div>
   <button type="submit" class="btn btn-primary">Entrar</button>
@@ -43,5 +43,15 @@
     width: 35%;
     margin-left: 0;
     }
-
+    @media (max-width: 420px){
+        .login {
+        margin-left: 8%;
+    }
+    h1, h2 {
+    margin-left: 0;
+    }
+    .logo{
+        margin-left: 0;
+    }
+    }
 </style>
