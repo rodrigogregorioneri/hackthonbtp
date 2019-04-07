@@ -2,13 +2,15 @@
   <div>
     <cabecalho/>
     <router-view/>
+    <rodape/>
   </div>
 </template>
 
 <script>
 import NavBar from "./components/NavBar.vue";
 import Cabecalho from "./components/Cabecalho.vue";
-export default { components: { NavBar, Cabecalho } };
+import Rodape from "./components/Rodape.vue";
+export default { components: { NavBar, Cabecalho, Rodape } };
 </script>
 
 

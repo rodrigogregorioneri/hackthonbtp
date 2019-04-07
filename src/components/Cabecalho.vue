@@ -3,7 +3,10 @@
         <div>
             <img class="logo" src="../assets/image/logo.png">
         </div>
-            <h1>BTP pra você!</h1>
+            <div class="titulo text-center">
+                <h1>BTP pra você!</h1>
+                <h2>A plataforma do colaborador</h2>
+            </div>
     </div>
 </template>
 
@@ -34,11 +37,18 @@
         text-align: end;
         flex-direction: row;
     }
-    h1{
+    h1, h2{
         margin-left: 25%;
         margin-top: 1%;
         font-weight: bold;
         color: #a4af15;
         text-transform: uppercase;
     }
+    h2 {
+        font-size: 15px;
+    }
+    .titulo{
+        width: 60%;
+    }
+
 </style>
